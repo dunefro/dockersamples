@@ -9,3 +9,4 @@ spec:
   containers:
     - name: result-app
       image: dockersamples/examplevotingapp_result
+        - containerPort: 80
